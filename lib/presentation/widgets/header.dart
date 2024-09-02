@@ -20,16 +20,24 @@ class Header extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
-                  Text(
-                    "Episodes",
-                    style: TextStyle(fontWeight: FontWeight.w500, fontSize: 20),
+                  InkWell(
+                    onTap: () {},
+                    child: Text(
+                      "Episodes",
+                      style:
+                          TextStyle(fontWeight: FontWeight.w500, fontSize: 20),
+                    ),
                   ),
                   SizedBox(
                     width: 40,
                   ),
-                  Text(
-                    "About",
-                    style: TextStyle(fontWeight: FontWeight.w500, fontSize: 20),
+                  InkWell(
+                    onTap: () {},
+                    child: Text(
+                      "About",
+                      style:
+                          TextStyle(fontWeight: FontWeight.w500, fontSize: 20),
+                    ),
                   ),
                 ],
               )),
